@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas complexas</title>
+</head>
+<style>
+    caption{
+        background-color: lightgray;
+        border: 1.9px solid black;
+    }
+    table{
+        border-collapse: collapse;
+        font-size: 30px;
+        padding: 10px;
+        /* left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%); */
+    }
+    th{
+        background-color: lightgray;
+    }
+    th, td{
+        width: 300px;
+        border: 2px solid black;
+    }
+    tbody > tr:nth-child(odd){
+        background-color: lightskyblue;
+    }
+    .numeros{
+        text-align: right;
+    }
+    thead{
+        position: sticky;
+        top: 0;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Meios de hospedagem(MH)</th>
+                <th>Leitos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numeros">418</td>
+                <td class="numeros">36.330</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">414</td>
+                <td class="numeros">53.832</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">409</td>
+                <td class="numeros">58.643</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numeros">350</td>
+                <td class="numeros">47.737</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>XXXX-xxxx</th>
+                <th>YYYY-yyyy</th>
+            </tr>
+        </tfoot>
+        <caption>Hotéis por região no Brasil</caption>
+    </table>
+</body>
+</html>
