@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizando imagens</title>
+</head>
+<style>
+    section#um{
+        position: relative;
+        background-color: #DB7F45;
+        height: 700px;
+        width: 700px;
+        border: 10px solid black;
+    }
+    article#dois{
+        position: absolute;
+        background-color: #350BD9;
+        height: 350px;
+        width: 350px;
+        border: 5px solid black;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+        
+    }
+    body{
+        background-image: url(modulo3-imagens/wallpaper001.jpg);
+    }
+</style>
+<body>
+    <section id="um">
+        <article id="dois">
+
+        </article>
+    </section>
+</body>
+</html>
