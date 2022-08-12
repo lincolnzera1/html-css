@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro formulário do curso</title>
+</head>
+<body>
+    <h1>My first form</h1>
+    
+    <!-- action: para onde o form vai depois de apertar em submit.
+         autocomplete: tira as sugestões do input text.
+         Label: Boa prática e necessário o for ser igual ao id do input.
+
+         method:
+            GET = para dados não sensíveis.
+                  Só aguenta 3k letras.
+                  Não é usado para envio de fotos.
+
+            POST = Não mostra os dados do form na url, mas é inseguro e mostra no inspecionar elemento.
+                   Usado para dados sensíveis.
+                   Melhor usar o tal do https que não sei oq é.
+    -->
+    <form action="cadastro.js" autocomplete="off" >
+        <p><label for="iname">Name:</label> <input type="text" id="iname"></p>
+        <p><label for="ilastName">Last name:</label> <input type="text" id="ilastName"></p>
+        <p><input type="submit" value="Send"></p>
+    </form>
+</body>
+</html>
