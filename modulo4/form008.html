@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.js" method="get" >
+
+        <!--
+                Aqui eu só posso escolher as opções listadas.
+            -->
+        <p>
+            <label for="">Estado: </label>
+            <select name="" id="">
+
+                <option value="" selected>--- Escolha ---</option> <!-- Valor default com selected-->
+
+                <optgroup label="Grupo 1">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="AM">Amazonas</option>
+                </optgroup>
+
+                <optgroup label="Grupo 2">
+                    <option value="CE">Ceará</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RR">Roraima</option>
+                </optgroup>
+            </select>
+
+            <!--
+                Aqui eu posso além de escolher as opções, digitar uma que não tem listada.
+            -->
+        </p>
+            <label for="ilista">Profissão: </label>
+            <input type="text" name="prof" id="ilista" list="profissao">
+            <datalist id="profissao">
+                <option value="exemplo">PROGRAMMER</option>
+                <option>TEACHER</option>
+                <option>doctor</option>
+            </datalist>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
